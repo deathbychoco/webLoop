@@ -1,0 +1,6 @@
+builds:
+docker build -t developer-llm .
+docker build -t puppeteer-browser-screenshot .
+
+docker run -e OPENAI_API_KEY=$OPENAI_API_KEY -v /mnt/c/Users/wolfg/webLoop/data:/app/data developer-llm:latest
+docker run -v /mnt/c/Users/wolfg/webLoop/data:/app/data puppeteer-browser-screenshot:latest
