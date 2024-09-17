@@ -1,21 +1,66 @@
-Sure! Here is a stylish HTML page with a modern design using inline CSS. I've added a header, footer, and a main section with blog-like content. Each time you run the code snippet, the background color will change.
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stylish Blog</title>
+    <title>Corporate Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body style="margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #f7f7f7;">
-    <header style="background-color: #333; color: #fff; text-align: center; padding: 10px;">
-        <h1>Modern Blog</h1>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main style="max-width: 800px; margin: 20px auto; padding: 20px; background-color: #fff; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
-        <article>
-            <h2 style="color: #333;">Post Title</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis sollicitudin felis. Etiam porttitor, mi eget lacinia posuere
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to our Company</h1>
+            <button>Learn More</button>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <img src="service-icon-1.png" alt="Service 1 Icon">
+            <p>Service 1 Description</p>
+        </div>
+        <div class="service">
+            <img src="service-icon-2.png" alt="Service 2 Icon">
+            <p>Service 2 Description</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Information</h2>
+        <p>Email: info@company.com</p>
+        <p>Phone: 123-456-7890</p>
+        <div class="social-icons">
+            <!-- Social media icons here -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <!-- Social media links here -->
+        </div>
+        <p>&copy; 2021 Company Name. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
